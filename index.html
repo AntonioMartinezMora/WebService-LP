@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+
+    <title>Web Service</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav__container">
+            <h1><i class="fas fa-mouse"></i> WebService</h1>
+            <ul class="menu__list">
+                <li class="dropdown">
+                    <a href="#/" class="menu__link">Products <i class="fas fa-chevron-down"></i></a>
+                    <span class="underline"></span>
+                    <div class="menu__options">
+                        <a href="#/" class="menu__item">Management</a>
+                        <a href="#/" class="menu__item">For teams</a>
+                        <a href="#/" class="menu__item">Remote Teams</a>
+                        <a href="#/" class="menu__item">Researcher</a>
+                        <a href="#/" class="menu__item">Customers</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#/" class="menu__link">How it works</a>
+                    <span class="underline"></span>
+                </li>
+                <li class="dropdown">
+                    <a href="#/" class="menu__link">Solutions <i class="fas fa-chevron-down"></i></a>
+                    <span class="underline"></span>
+                    <div class="menu__options">
+                        <a href="#/" class="menu__item">For Ecommerce</a>
+                        <a href="#/" class="menu__item">For SEO</a>
+                        <a href="#/" class="menu__item">For Ads</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#/" class="menu__link">Plans</a>
+                    <span class="underline"></span>
+                </li>
+            </ul>
+            <div class="nav__buttons">
+                <a href="#" id="login" class="btn blue__btn">Login</a>
+                <a href="#" id="signup" class="btn white__btn">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Container -->
+    <section id="landing__container" class="center__cont">
+        <div class="landing__content">
+            <div class="landing__text center__cont">
+                <h2>Your web services here</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint necessitatibus impedit sequi eligendi qui eius pariatur aspernatur soluta error molestias.</p>
+                <a href="#" class="btn white__btn">Get started</a>
+            </div>
+            <div class="illustration"></div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="center__cont">
+        <h2>All the products you need in one platform</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates iusto recusandae, assumenda cupiditate nulla quod! Adipisci omnis ipsam aliquid eaque odit accusantium perspiciatis quos quo?</p>
+        <div class="products__container">
+            <div class="product__card center__cont">
+                <h3><i class="fas fa-database"></i> Unlimited Storage</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quisquam quibusdam impedit tempora assumenda suscipit delectus eius dolorum.</p>
+                <a href="#"><i class="fas fa-plus-circle card__btn"></i></a>
+            </div>
+            <div class="product__card center__cont">
+                <h3><i class="fas fa-tachometer-alt"></i> Increase your speed</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quisquam quibusdam impedit tempora assumenda suscipit delectus eius dolorum.</p>
+                <a href="#"><i class="fas fa-plus-circle card__btn"></i></a>
+            </div>
+            <div class="product__card center__cont">
+                <h3><i class="fas fa-user-edit"></i> Personalization</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quisquam quibusdam impedit tempora assumenda suscipit delectus eius dolorum.</p>
+                <a href="#"><i class="fas fa-plus-circle card__btn"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customers quotes -->
+    <section id="customers" class="center__cont">
+        <h2>What our customers say</h2>
+        <div class="customers__quotes">
+            <button class="arrow" id="left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="quotes__container">
+                <div class="quote center__cont active">
+                    <img src="imgs/pic1.jpg">
+                    <small>John Smith, Head of Marketing</small>
+                    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione illum beatae ullam nemo ut reprehenderit odio consequuntur!"</p>
+                </div>
+                <div class="quote center__cont">
+                    <img src="imgs/pic2.jpg">
+                    <small>Doris Johnson, Sales Department</small>
+                    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione illum beatae ullam nemo ut reprehenderit od dolor sit amet consectetur, adipi"</p>
+                </div>
+                <div class="quote center__cont">
+                    <img src="imgs/pic3.jpg">
+                    <small>Kate Thompson, Business Analyst</small>
+                    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione illum beatae ullam nemo ut reprehenderit odio consequuntur!"</p>
+                </div>
+            </div>
+            <button class="arrow" id="right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+    <section id="questions" class="center__cont">
+        <h2>Frequently Asked Questions</h2>
+        <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us</p>
+
+        <div class="accordion">
+
+            <div class="question">
+                <button class="ques_btn">What do we do? </button>
+                <div class="answer">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut ea quaerat nisi consequuntur itaque optio iure deserunt magnam obcaecati?</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <button class="ques_btn">How much is the subscription</button>
+                <div class="answer">
+                    <p class="text">Lorem ipsum  amet consectetur adipisicing elit. A aut ea quaerat nisi  itaque optio iure deserunt magnam obcaecati?ea quaerat ea quaerat n</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <button class="ques_btn">24/7 Support</button>
+                <div class="answer">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut ea quaerat nisi c itaque optio iure deserunt magnam obcaecati?</p>
+                </div>
+            </div>
+
+            <div class="question">
+                <button class="ques_btn">Do we have other services?</button>
+                <div class="answer">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut ea quaerat nisi consequuntur itaque optio iure deserunt magnam obcaecati?</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Pricing Options -->
+    <section id="prices" class="center__cont">
+        <h2>Simpre pricing for your needs</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, dolores sit! Voluptates officiis, vel impedit nulla culpa fugiat unde non sunt. Exercitationem, blanditiis?</p>
+        <div class="price__options">
+            <small>Annual</small>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <div class="selected"></div>
+            </label>
+            <small>Monthly</small>
+        </div>
+        <div class="price__box">
+            <div class="price__card center__cont" id="price__card">
+                <h3>$ 
+                    <span class="price selected__price">29</span>
+                    <span class="price">39</span>
+                /mo</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-check-square"></i> Flexible, simple license
+                    </li>
+                    <li>
+                        <i class="fas fa-check-square"></i> Unlimited storage
+                    </li>
+                    <li>
+                        <i class="fas fa-check-square"></i> Personalize your plan
+                    </li>
+                    <li>
+                        <i class="fas fa-check-square"></i> 24/7 support
+                    </li>
+                </ul>
+                <a href="#" class="plan__btn center__cont">Get this plan</a>
+            </div>
+            <div class="price__card center__cont" id="contact__card">
+                <h4>We offer a variable pricing with discounts for larger organizations. Get in touch with us and we'll figure out something that works for you.</h4>
+                <a href="#" class="plan__btn center__cont">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Bottom -->
+    <section id="page__bottom">
+        <div class="center__cont">
+            <h2>Are you ready to get our services?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic deleniti ipsam ratione, ducimus magni!</p>
+            <a href="#" class="btn white__btn">Get started</a>
+        </div>
+        <footer>
+            <div class="social">
+                <a href="#" class="social__icon">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="#" class="social__icon">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#" class="social__icon">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="social__icon">
+                    <i class="fab fa-youtube-square"></i>
+                </a>
+                <a href="#" class="social__icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <small>
+                &copy; 2021 WebService, Inc. All rights reserved.
+            </small>
+        </footer>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
